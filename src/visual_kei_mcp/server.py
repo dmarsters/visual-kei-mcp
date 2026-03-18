@@ -14,7 +14,7 @@ Subgenres: Kote Kei, Oshare Kei, Nagoya Kei, Angura Kei, Eroguro Kei, Lolita Kei
 Eras: Pioneer (1980s), Golden Age (1990s), Diversification (2000s), Neo-Revival (2010s+)
 """
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from pydantic import BaseModel, Field, ConfigDict
 from typing import Optional, List, Dict, Any
 from enum import Enum
@@ -451,7 +451,7 @@ def build_complete_prompt_parameters(
         "openWorldHint": False
     }
 )
-async def list_subgenres() -> str:
+def list_subgenres() -> str:
     """
     List all available Visual Kei subgenres with brief descriptions.
     
@@ -483,7 +483,7 @@ async def list_subgenres() -> str:
         "openWorldHint": False
     }
 )
-async def list_eras() -> str:
+def list_eras() -> str:
     """
     List all available Visual Kei historical eras with characteristics.
     
@@ -516,7 +516,7 @@ async def list_eras() -> str:
         "openWorldHint": False
     }
 )
-async def list_contexts() -> str:
+def list_contexts() -> str:
     """
     List all available visual contexts (settings) for character generation.
     
@@ -549,7 +549,7 @@ async def list_contexts() -> str:
         "openWorldHint": False
     }
 )
-async def list_archetypes() -> str:
+def list_archetypes() -> str:
     """
     List all available band member archetypes with their visual characteristics.
     
@@ -581,7 +581,7 @@ async def list_archetypes() -> str:
         "openWorldHint": False
     }
 )
-async def get_subgenre_details(params: SubgenreInput) -> str:
+def get_subgenre_details(params: SubgenreInput) -> str:
     """
     Get complete taxonomy details for a specific Visual Kei subgenre.
     
@@ -612,7 +612,7 @@ async def get_subgenre_details(params: SubgenreInput) -> str:
         "openWorldHint": False
     }
 )
-async def get_era_details(params: EraInput) -> str:
+def get_era_details(params: EraInput) -> str:
     """
     Get complete taxonomy details for a specific Visual Kei era.
     
@@ -643,7 +643,7 @@ async def get_era_details(params: EraInput) -> str:
         "openWorldHint": False
     }
 )
-async def get_intensity_guide() -> str:
+def get_intensity_guide() -> str:
     """
     Get complete guide to intensity levels and their applications.
     
@@ -677,7 +677,7 @@ async def get_intensity_guide() -> str:
         "openWorldHint": False
     }
 )
-async def analyze_intent(params: IntentAnalysisInput) -> str:
+def analyze_intent(params: IntentAnalysisInput) -> str:
     """
     Analyze natural language prompt to detect Visual Kei parameters.
     
@@ -720,7 +720,7 @@ async def analyze_intent(params: IntentAnalysisInput) -> str:
         "openWorldHint": False
     }
 )
-async def map_parameters(params: ParameterMappingInput) -> str:
+def map_parameters(params: ParameterMappingInput) -> str:
     """
     Map Visual Kei selections to complete visual parameters.
     
@@ -753,7 +753,7 @@ async def map_parameters(params: ParameterMappingInput) -> str:
         "openWorldHint": False
     }
 )
-async def compare_subgenres(params: CompareSubgenresInput) -> str:
+def compare_subgenres(params: CompareSubgenresInput) -> str:
     """
     Compare two Visual Kei subgenres side by side.
     
@@ -823,7 +823,7 @@ async def compare_subgenres(params: CompareSubgenresInput) -> str:
         "openWorldHint": False
     }
 )
-async def enhance_with_visual_kei(params: EnhancePromptInput) -> str:
+def enhance_with_visual_kei(params: EnhancePromptInput) -> str:
     """
     Complete enhancement workflow: analyze intent + map parameters.
     
@@ -891,7 +891,7 @@ async def enhance_with_visual_kei(params: EnhancePromptInput) -> str:
         "openWorldHint": False
     }
 )
-async def generate_band_parameters(params: BandGenerationInput) -> str:
+def generate_band_parameters(params: BandGenerationInput) -> str:
     """
     Generate parameters for a complete Visual Kei band with multiple members.
     
@@ -1317,7 +1317,7 @@ def _vk_extract_visual_vocabulary(state: dict, strength: float = 1.0) -> dict:
         "openWorldHint": False,
     },
 )
-async def get_visual_kei_coordinates(state_name: str) -> str:
+def get_visual_kei_coordinates(state_name: str) -> str:
     """
     Return normalized 5D morphospace coordinates for a canonical Visual Kei state.
 
@@ -1349,7 +1349,7 @@ async def get_visual_kei_coordinates(state_name: str) -> str:
         "openWorldHint": False,
     },
 )
-async def list_visual_kei_rhythmic_presets() -> str:
+def list_visual_kei_rhythmic_presets() -> str:
     """
     List all Phase 2.6 rhythmic presets with their periods and descriptions.
 
@@ -1390,7 +1390,7 @@ async def list_visual_kei_rhythmic_presets() -> str:
         "openWorldHint": False,
     },
 )
-async def apply_visual_kei_rhythmic_preset(preset_name: str) -> str:
+def apply_visual_kei_rhythmic_preset(preset_name: str) -> str:
     """
     Generate a complete rhythmic oscillation trajectory for a preset.
 
@@ -1437,7 +1437,7 @@ async def apply_visual_kei_rhythmic_preset(preset_name: str) -> str:
         "openWorldHint": False,
     },
 )
-async def compute_visual_kei_trajectory(
+def compute_visual_kei_trajectory(
     state_a: str,
     state_b: str,
     steps: int = 24,
@@ -1503,7 +1503,7 @@ async def compute_visual_kei_trajectory(
         "openWorldHint": False,
     },
 )
-async def get_visual_kei_visual_types() -> str:
+def get_visual_kei_visual_types() -> str:
     """
     List all visual vocabulary types with their 5D coordinates and keywords.
 
@@ -1537,7 +1537,7 @@ async def get_visual_kei_visual_types() -> str:
         "openWorldHint": False,
     },
 )
-async def generate_visual_kei_attractor_prompt(
+def generate_visual_kei_attractor_prompt(
     theatrical_intensity: float = 0.5,
     darkness_quotient: float = 0.5,
     androgyny_level: float = 0.5,
@@ -1677,7 +1677,7 @@ async def generate_visual_kei_attractor_prompt(
         "openWorldHint": False,
     },
 )
-async def get_visual_kei_domain_registry_config() -> str:
+def get_visual_kei_domain_registry_config() -> str:
     """
     Return domain registration config for the Tier 4D compositional system.
 
@@ -1790,7 +1790,7 @@ async def get_visual_kei_domain_registry_config() -> str:
         "openWorldHint": False,
     },
 )
-async def get_server_info() -> str:
+def get_server_info() -> str:
     """
     Return server metadata, capabilities, and Phase 2.6/2.7 status.
 
