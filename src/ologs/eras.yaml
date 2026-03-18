@@ -1,0 +1,132 @@
+# Visual Kei Era Taxonomy
+# Layer 1: Pure deterministic lookup data
+
+eras:
+  pioneer_1980s:
+    name: "Pioneer Era (1980s)"
+    description: "Foundational period - Western glam rock influence most visible"
+    period: "1980-1989"
+    
+    characteristics:
+      - "Western glam rock influence visible"
+      - "Less refined, more raw aesthetic"
+      - "Maximum hair volume and extreme makeup"
+      - "Proto-visual kei forming identity"
+    
+    visual_markers:
+      hair: "MAXIMUM volume (10-14 inches), wild teasing"
+      makeup: "Heavy, theatrical, learning phase"
+      clothing: "Mix of punk, glam, goth without refinement"
+      influence: "David Bowie, KISS, New York Dolls visible"
+    
+    production_value: "raw, forming"
+    
+    key_bands:
+      - "X Japan"
+      - "Buck-Tick"
+      - "Dead End"
+      - "D'erlanger"
+      - "Color"
+    
+    styling_notes:
+      hair_height: "10-14"
+      makeup_refinement: "experimental"
+      western_influence: "high"
+
+  golden_age_1990s:
+    name: "Golden Age (1990s)"
+    description: "Peak refinement - Visual kei identity fully formed"
+    period: "1990-1999"
+    
+    characteristics:
+      - "Visual kei identity fully formed"
+      - "Highest production values"
+      - "Diverse substyles emerging"
+      - "Mainstream commercial success"
+    
+    visual_markers:
+      hair: "Perfected techniques (8-10 inches), consistent styling"
+      makeup: "Professional application, signature looks"
+      clothing: "Custom designed, high production value"
+      influence: "Unique Japanese identity established"
+    
+    production_value: "highest, polished"
+    
+    key_bands:
+      - "Luna Sea"
+      - "Malice Mizer"
+      - "Glay"
+      - "L'Arc~en~Ciel"
+      - "Kuroyume"
+    
+    styling_notes:
+      hair_height: "8-10"
+      makeup_refinement: "professional"
+      western_influence: "integrated"
+
+  diversification_2000s:
+    name: "Diversification Era (2000s)"
+    description: "Experimental period - Multiple substyles coexist"
+    period: "2000-2009"
+    
+    characteristics:
+      - "Multiple substyles coexist"
+      - "Oshare Kei emergence"
+      - "International awareness"
+      - "Digital/modern elements"
+    
+    visual_markers:
+      hair: "Subgenre-specific techniques refined (6-8 inches)"
+      makeup: "Style-appropriate, less universal"
+      clothing: "Substyle differentiation clear"
+      influence: "Internet culture, globalization"
+    
+    production_value: "varied by substyle"
+    
+    key_bands:
+      - "Dir en grey (evolution)"
+      - "The Gazette"
+      - "Merry"
+      - "An Café"
+      - "Versailles"
+    
+    styling_notes:
+      hair_height: "6-8"
+      makeup_refinement: "substyle-specific"
+      western_influence: "selective"
+
+  neo_revival_2010s:
+    name: "Neo-Revival Era (2010s+)"
+    description: "Modern interpretation - 'Neo-visual kei' tag emerges"
+    period: "2010-present"
+    
+    characteristics:
+      - "Veterans return/reform"
+      - "Neo-visual kei tag emerges"
+      - "More accessible, social media influenced"
+      - "International tours common"
+    
+    visual_markers:
+      hair: "Modern techniques (4-6 inches), Instagram-ready"
+      makeup: "HD photography aware, refined"
+      clothing: "Contemporary fashion integration"
+      influence: "Global alternative scenes, K-pop crossover"
+    
+    production_value: "digital-optimized, social media aware"
+    
+    key_bands:
+      - "Miyavi (solo)"
+      - "reformed X Japan/Luna Sea"
+      - "younger bands"
+    
+    styling_notes:
+      hair_height: "4-6"
+      makeup_refinement: "HD-optimized"
+      western_influence: "global fusion"
+
+# Keyword mappings for intent detection
+keywords:
+  pioneer_1980s: ["80s", "1980s", "x japan", "buck-tick", "pioneer", "early", "founding", "original", "glam rock influence"]
+  golden_age_1990s: ["90s", "1990s", "luna sea", "malice mizer", "golden age", "peak", "classic era", "glay", "l'arc"]
+  diversification_2000s: ["2000s", "modern", "diverse", "internet era", "the gazette", "an cafe", "versailles", "international"]
+  neo_revival_2010s: ["2010s", "neo", "revival", "instagram", "social media", "contemporary", "hd", "modern techniques", "miyavi"]
