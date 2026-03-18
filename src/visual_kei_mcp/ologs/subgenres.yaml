@@ -1,0 +1,275 @@
+# Visual Kei Subgenre Taxonomy
+# Layer 1: Pure deterministic lookup data
+
+subgenres:
+  kote_kei:
+    name: "Kote Kei"
+    description: "Classic Visual Kei - the oldest and most established form"
+    era_origin: "1980s-2000s"
+    mood: "dramatic, theatrical, dark glamour"
+    
+    color_palette:
+      primary: ["black", "deep red", "dark purple", "silver"]
+      accent: ["white", "blood red", "metallic chrome"]
+      scheme: "high_contrast"
+    
+    hair:
+      volume: "high"
+      volume_inches: "8-12"
+      texture: ["heavily teased", "straightened layers"]
+      colors: ["bright synthetic (pink, blue, purple)", "dramatic natural (black, platinum, ash)"]
+      styles: ["spiky top with straightened lower sections", "asymmetrical dramatic"]
+    
+    makeup:
+      intensity: "heavy"
+      foundation: "pale/white base (shironuri influence)"
+      eyes: ["heavy black eyeliner", "dramatic smoky shadow", "false lashes"]
+      lips: ["dark (black, deep red)", "pale nude"]
+      features: "sharp, angular features emphasized"
+    
+    garments:
+      types: 
+        - "leather jackets with chains and studs"
+        - "ripped fishnet layers"
+        - "military-inspired pieces with buckles"
+        - "platform boots (3-6 inches)"
+      fabrics: ["leather", "vinyl", "fishnet", "velvet"]
+      silhouette: "fitted with dramatic accessories"
+    
+    accessories: ["studded belts (multiple)", "chain necklaces", "leather cuffs", "spiked collars", "safety pins"]
+    exemplar_bands: ["La'Mule", "early Dir en Grey", "Lariene", "Madeth Gray'll"]
+
+  oshare_kei:
+    name: "Oshare Kei"
+    description: "Bright, colorful, pop-influenced alternative - means 'fashionable style'"
+    era_origin: "Early 2000s-present"
+    mood: "cheerful, upbeat, playful, energetic"
+    
+    color_palette:
+      primary: ["hot pink", "electric blue", "lime green", "orange"]
+      pattern: ["clashing patterns", "stripes", "polka dots"]
+      saturation: "maximum vibrance, neon intensity"
+      scheme: "multicolor"
+    
+    hair:
+      volume: "medium"
+      volume_inches: "4-6"
+      texture: ["fluffy", "teased", "layered"]
+      colors: ["rainbow spectrum", "multi-toned", "bright pastels"]
+      styles: ["asymmetrical cuts", "choppy layers", "colorful extensions"]
+    
+    makeup:
+      intensity: "medium"
+      foundation: "light, natural-toned"
+      eyes: ["colorful eyeliner (blue, pink)", "minimal shadow", "cute accessories"]
+      lips: ["glossy", "pink", "natural"]
+      features: "youthful, cute appearance"
+    
+    garments:
+      types:
+        - "oversized graphic tees with cute designs"
+        - "skinny jeans with patches and pins"
+        - "colorful hoodies with character prints"
+        - "sneakers or casual boots"
+      fabrics: ["cotton", "denim", "synthetic blends"]
+      silhouette: "casual, layered, youthful"
+    
+    accessories: ["excessive bracelets", "multiple necklaces", "hair clips", "oversized glasses", "character pins"]
+    exemplar_bands: ["An Café", "Baroque", "SuG", "THE KIDDIE", "Kra"]
+
+  nagoya_kei:
+    name: "Nagoya Kei"
+    description: "Dark, stripped-down style from Nagoya - 'wealthy gothic metalhead' aesthetic"
+    era_origin: "Mid-1990s-present"
+    mood: "brooding, mysterious, aggressive, understated"
+    
+    color_palette:
+      primary: ["black", "charcoal", "dark grey"]
+      accent: ["white (minimal)", "silver hardware"]
+      restriction: "strictly monochromatic"
+      scheme: "90% black, 10% accent"
+    
+    hair:
+      volume: "moderate"
+      volume_inches: "3-5"
+      texture: ["slightly teased but controlled"]
+      colors: ["natural blacks", "dark browns", "occasional ash"]
+      styles: ["side-swept bangs", "modern dramatic but plausible"]
+    
+    makeup:
+      intensity: "minimal"
+      foundation: "natural to pale"
+      eyes: ["heavy black liner", "minimal color"]
+      lips: ["dark or natural"]
+      features: "understated but present, eyeliner focus"
+    
+    garments:
+      types:
+        - "tailored black suits"
+        - "dress shirts"
+        - "simple leather jackets"
+        - "combat or dress boots"
+      fabrics: ["wool", "leather", "cotton"]
+      silhouette: "fitted, structured, professional"
+    
+    accessories: ["minimal silver chains", "simple rings", "watches"]
+    exemplar_bands: ["Kuroyume", "Silver Rose", "lynch.", "Deathgaze"]
+
+  angura_kei:
+    name: "Angura Kei"
+    description: "Underground style - traditional Japanese with dark themes, Butoh/theater influence"
+    era_origin: "1990s-present"
+    mood: "cultural, mystical, theatrical, traditional"
+    
+    color_palette:
+      primary: ["black", "deep crimson", "gold"]
+      traditional: ["indigo", "burgundy", "forest green"]
+      accent: ["white (shironuri)", "metallic gold"]
+      pattern: ["traditional Japanese motifs (waves, flowers, geometric)"]
+    
+    hair:
+      volume: "variable"
+      texture: ["sleek traditional", "wildly teased"]
+      colors: ["black predominant", "occasionally dyed tips"]
+      styles: ["traditional Japanese hairstyles modernized"]
+    
+    makeup:
+      intensity: "theatrical"
+      foundation: "shironuri (white face paint) common"
+      eyes: ["dark, dramatic", "traditional Japanese theater influence"]
+      lips: ["dark red or black", "defined shapes"]
+      features: "Kabuki/Noh theater aesthetics"
+    
+    garments:
+      types:
+        - "modified kimono and yukata"
+        - "Japanese school uniforms (gakuran)"
+        - "hakama pants"
+        - "traditional obi belts"
+      fabrics: ["silk", "cotton", "brocade"]
+      silhouette: "traditional with modern edge"
+    
+    accessories: ["traditional hair ornaments", "fans", "traditional jewelry", "cultural symbols"]
+    exemplar_bands: ["Kagrra", "Inugami Circus-Dan", "Kiryu", "Guruguru Eigakan"]
+
+  eroguro_kei:
+    name: "Eroguro Kei"
+    description: "Erotic Grotesque - combines sensuality with disturbing, taboo imagery"
+    era_origin: "1990s-present"
+    mood: "shocking, disturbing, artistic provocation, boundary-pushing"
+    
+    color_palette:
+      primary: ["black", "blood red", "bruise purple"]
+      accent: ["flesh tones", "hospital white", "rust"]
+      contrast: "disturbing juxtapositions"
+      texture: "wet-look, damaged, stained effects"
+    
+    hair:
+      volume: "variable, often disheveled"
+      texture: ["messy", "intentionally damaged looking"]
+      colors: ["black", "bleached white", "unnatural (medical green)"]
+      styles: ["chaotic", "asymmetrical", "disturbed aesthetic"]
+    
+    makeup:
+      intensity: "theatrical"
+      foundation: "pale to corpse-like"
+      eyes: ["smeared", "running makeup", "exaggerated features"]
+      lips: ["smeared lipstick", "blood effects"]
+      special_effects: ["bruising", "wounds", "medical themes", "stitches"]
+      features: "intentionally 'wrong' or disturbing"
+    
+    garments:
+      types:
+        - "fetish wear (leather, latex, harnesses)"
+        - "medical imagery"
+        - "gothic lace mixed with disturbing elements"
+        - "religious iconography twisted"
+      fabrics: ["latex", "leather", "lace", "vinyl"]
+      silhouette: "provocative, uncomfortable"
+    
+    accessories: ["bandages", "medical tape", "eye patches", "chains", "harnesses"]
+    exemplar_bands: ["Cali≠gari", "early MUCC", "MERRY", "Kagerou"]
+
+  lolita_kei:
+    name: "Lolita Kei"
+    description: "Elegant Gothic - refined, Victorian/Rococo aesthetics with gender ambiguity"
+    era_origin: "Late 1990s-2000s"
+    mood: "elegant, refined, aristocratic, romantic gothic"
+    
+    color_palette:
+      primary: ["black", "burgundy", "royal purple", "deep blue"]
+      accent: ["white lace", "silver", "pearl"]
+      pattern: ["damask", "roses", "Victorian motifs"]
+      fabric_appearance: "rich, luxurious"
+    
+    hair:
+      volume: "moderate to high"
+      texture: ["curled, romantic waves", "straight dramatic"]
+      colors: ["black", "platinum blonde", "deep burgundy"]
+      styles: ["long flowing", "structured with accessories", "elegant updos"]
+    
+    makeup:
+      intensity: "refined"
+      foundation: "porcelain pale"
+      eyes: ["defined but elegant", "doll-like"]
+      lips: ["rose", "burgundy", "defined cupid's bow"]
+      features: "aristocratic beauty"
+    
+    garments:
+      types:
+        - "elaborate ball gowns and dresses"
+        - "lace petticoats and crinolines"
+        - "Victorian-style jackets with tails"
+        - "elegant boots or Mary Janes"
+      fabrics: ["velvet", "brocade", "lace", "satin"]
+      silhouette: "elaborate, structured, voluminous"
+    
+    accessories: ["crosses", "roses", "religious iconography", "cameo brooches", "pearl strands", "lace gloves"]
+    exemplar_bands: ["Versailles", "Kaya", "Mana (Malice Mizer/Moi dix Mois)"]
+
+  iryou_kei:
+    name: "Iryou Kei"
+    description: "Medical Style - hospital/medical fetish aesthetic (sub-style of Eroguro)"
+    era_origin: "2000s"
+    mood: "clinical, disturbing, fetishistic, niche"
+    
+    color_palette:
+      primary: ["clinical white", "blood red", "surgical green"]
+      accent: ["bruise colors (purple, yellow, blue)"]
+      sterile: ["stainless steel", "antiseptic blue"]
+      contrast: "clean vs bloody"
+    
+    hair:
+      volume: "variable"
+      texture: ["clean OR bloodied/messy"]
+      colors: ["natural OR medical-themed"]
+      styles: ["professional OR disturbed patient", "surgical cap covered"]
+    
+    makeup:
+      intensity: "theatrical"
+      foundation: "pale, sickly"
+      eyes: ["dark circles", "exhausted look OR clinical clean"]
+      special_effects: ["bandages", "eye patches", "wounds", "stitches"]
+      features: "medical victim OR clinical professional"
+    
+    garments:
+      types:
+        - "bloodied or clean lab coats"
+        - "nurse uniforms (modified)"
+        - "patient gowns"
+        - "surgical attire"
+      fabrics: ["cotton", "latex gloves", "medical materials"]
+      silhouette: "clinical, institutional"
+    
+    accessories: ["surgical masks", "medical gloves", "stethoscopes", "IV bags", "bandages everywhere"]
+    exemplar_bands: ["Various bands during phases"]
+
+# Keyword mappings for intent detection
+keywords:
+  kote_kei: ["classic", "classic visual kei", "dramatic", "chains", "studs", "black and silver", "teased hair", "heavy makeup", "platform boots", "leather", "traditional vk", "la'mule", "dir en grey", "madeth gray'll"]
+  oshare_kei: ["bright", "colorful", "happy", "cute", "pink", "rainbow", "cheerful", "pop", "fun", "pastel", "kawaii", "an cafe", "baroque", "sug", "kra"]
+  nagoya_kei: ["dark", "minimal", "stripped-down", "black suit", "monochrome", "understated", "business", "gothic businessman", "kuroyume", "lynch"]
+  angura_kei: ["traditional", "japanese", "kimono", "white face", "kabuki", "cultural", "shironuri", "theater", "hakama", "kagrra", "inugami"]
+  eroguro_kei: ["disturbing", "grotesque", "smeared", "medical", "horror", "fetish", "blood", "wounds", "shocking", "mucc", "merry", "cali gari"]
+  lolita_kei: ["elegant", "victorian", "gothic lolita", "ball gown", "aristocratic", "rococo", "refined", "versailles", "kaya", "mana"]
+  iryou_kei: ["medical", "hospital", "nurse", "doctor", "bandages", "clinical", "patient", "surgical", "lab coat"]
